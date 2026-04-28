@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "companionmod",
+  "version": "1.0.0",
+  "name": "Pipisya Mod",
+  "description": "Adds Pipisya companion mob",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.companionmod.CompanionMod"],
+    "client": ["com.companionmod.client.CompanionModClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.6",
+    "java": ">=21"
+  }
+}
